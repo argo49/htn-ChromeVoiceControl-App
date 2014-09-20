@@ -23,10 +23,10 @@ var events = require('./events');
 server.listen(app.get('port'), function () {
   console.log('Server listening on port ' + this.address().port);
 });
-
+/*
 var blpapi  = require('blpapi');
 var session = new blpapi.Session({ host: '127.0.0.1', port: 8194 });
 
 session.on('SessionStarted', function(m) {
     // ready for work
-});
+});*/
